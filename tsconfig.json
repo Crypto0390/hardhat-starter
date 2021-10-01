@@ -100,12 +100,9 @@
     "baseUrl": "./"
   },
   "include": [
-    "./scripts",
-    "./test",
-    "./deploy",
-    "./typechain"
+    "./test/**/*.ts",
+    "./deploy/**/*.ts",
+    "./utils/**/*.ts",
   ],
-  "files": [
-    "./hardhat.config.ts"
-  ]
+  "files": ["./hardhat.config.ts"]
 }
