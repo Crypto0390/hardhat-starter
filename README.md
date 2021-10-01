@@ -1,1 +1,0 @@
-# Hardhat starter template
