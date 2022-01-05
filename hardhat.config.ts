@@ -3,6 +3,7 @@ import 'dotenv/config'
 import { HardhatUserConfig } from 'hardhat/types'
 import '@nomiclabs/hardhat-waffle'
 import '@nomiclabs/hardhat-ethers'
+import "@nomiclabs/hardhat-etherscan";
 import '@typechain/hardhat'
 import 'hardhat-abi-exporter'
 import 'hardhat-deploy'
